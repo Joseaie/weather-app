@@ -1,3 +1,7 @@
 .App {
   display: flex;
 }
+
+.grey-text {
+  color: gray;
+}

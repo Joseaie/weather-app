@@ -8,7 +8,7 @@ function DayCard({ date, day, description, imgAltText, imgSrc, temperature }) {
   return (
     <div className='day-card'>
       <h2>{day}</h2>
-      <p className='date'>{date}</p>
+      <p className='grey-text'>{date}</p>
       <img className='weather-icon' src={imgSrc} alt={altText} />
       <p className='temperature'>{temperature} &deg;C</p>
       <p>{description}</p>
